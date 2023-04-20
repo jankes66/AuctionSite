@@ -1,7 +1,7 @@
-package Service;
+package org.example.Service;
 
-import Model.CustomerModel;
-import Repository.CustomerRepository;
+import org.example.Model.CustomerModel;
+import org.example.Repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

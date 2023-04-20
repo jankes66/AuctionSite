@@ -1,7 +1,7 @@
-package Controller;
+package org.example.Controller;
 
-import Model.MainEmailModel;
-import Service.MainEmailService;
+import org.example.Model.MainEmailModel;
+import org.example.Service.MainEmailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

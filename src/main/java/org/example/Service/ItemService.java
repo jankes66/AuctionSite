@@ -1,8 +1,8 @@
-package Service;
+package org.example.Service;
 
 
-import Model.ItemModel;
-import Repository.ItemRepository;
+import org.example.Model.ItemModel;
+import org.example.Repository.ItemRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

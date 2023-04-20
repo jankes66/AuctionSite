@@ -4,46 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1e771ae-c1f7-40a8-8599-2f4719b69800" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Configuration/CorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/HistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Controller/MainEmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/CategoryAddressEnumsGB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/ItemCategoryEnumGB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enums/ItemConditionEnumGB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/AddressModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/CustomerModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/HistoryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/ItemModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/MainEmailModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/HistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/MainEmailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/HistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/MainEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AuctionSystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="a1e771ae-c1f7-40a8-8599-2f4719b69800" name="Changes" comment="problem z endpointem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Configuration/CorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Configuration/CorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/MainEmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/MainEmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/CategoryAddressEnumsGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Enums/CategoryAddressEnumsGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/ItemCategoryEnumGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Enums/ItemCategoryEnumGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/ItemConditionEnumGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Enums/ItemConditionEnumGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/AddressModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/AddressModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/CustomerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/CustomerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HistoryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/HistoryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/ItemModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/MainEmailModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/MainEmailModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/HistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/HistoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/MainEmailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/MainEmailRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/HistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/HistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/MainEmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/MainEmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../AuctionSystem\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +50,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,17 +73,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Jarek/Desktop/JAVA/FinalProject/studentApp/pom.xml",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jarek/Desktop/JAVA/FinalProject/AuctionSystem&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,6 +94,29 @@
       <option name="presentableId" value="Default" />
       <updated>1680532904567</updated>
     </task>
+    <task id="LOCAL-00001" summary="problem z endpointem">
+      <created>1681928784337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681928784337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="problem z endpointem" />
+    <option name="LAST_COMMIT_MESSAGE" value="problem z endpointem" />
   </component>
 </project>

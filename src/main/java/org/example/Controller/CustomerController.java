@@ -1,11 +1,8 @@
-package Controller;
+package org.example.Controller;
 
-import Model.CustomerModel;
-import Service.CustomerService;
+import org.example.Model.CustomerModel;
+import org.example.Service.CustomerService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
@@ -84,7 +81,7 @@ public class CustomerController {
                 .phoneNumber("+42300200100")
                 .build();
         customerService.addCustomer(c1);
-        customerService.addCustomer((c2));
+        customerService.addCustomer(c2);
     return List.of(c1, c2);
     }
 

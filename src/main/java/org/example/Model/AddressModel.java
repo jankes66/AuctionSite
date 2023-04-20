@@ -1,6 +1,6 @@
-package Model;
+package org.example.Model;
 
-import Enums.CategoryAddressEnumsGB;
+import org.example.Enums.CategoryAddressEnumsGB;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

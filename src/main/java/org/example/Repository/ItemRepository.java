@@ -1,7 +1,6 @@
-package Repository;
+package org.example.Repository;
 
-import Model.AddressModel;
-import Model.ItemModel;
+import org.example.Model.ItemModel;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,7 +1,7 @@
-package Controller;
+package org.example.Controller;
 
-import Model.HistoryModel;
-import Service.HistoryService;
+import org.example.Model.HistoryModel;
+import org.example.Service.HistoryService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.ui.Model;

@@ -1,7 +1,7 @@
-package Service;
+package org.example.Service;
 
-import Model.AddressModel;
-import Repository.AddressRepository;
+import org.example.Model.AddressModel;
+import org.example.Repository.AddressRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

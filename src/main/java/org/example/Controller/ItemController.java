@@ -1,8 +1,8 @@
-package Controller;
+package org.example.Controller;
 
 
-import Model.ItemModel;
-import Service.ItemService;
+import org.example.Model.ItemModel;
+import org.example.Service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

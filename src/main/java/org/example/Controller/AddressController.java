@@ -1,7 +1,7 @@
-package Controller;
+package org.example.Controller;
 
-import Service.AddressService;
-import Model.AddressModel;
+import org.example.Service.AddressService;
+import org.example.Model.AddressModel;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

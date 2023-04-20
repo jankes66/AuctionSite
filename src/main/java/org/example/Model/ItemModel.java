@@ -1,7 +1,7 @@
-package Model;
+package org.example.Model;
 
-import Enums.ItemCategoryEnumGB;
-import Enums.ItemConditionEnumGB;
+import org.example.Enums.ItemCategoryEnumGB;
+import org.example.Enums.ItemConditionEnumGB;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

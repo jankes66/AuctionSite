@@ -1,7 +1,7 @@
-package Service;
+package org.example.Service;
 
-import Model.MainEmailModel;
-import Repository.MainEmailRepository;
+import org.example.Model.MainEmailModel;
+import org.example.Repository.MainEmailRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

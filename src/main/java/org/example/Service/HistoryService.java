@@ -1,8 +1,7 @@
-package Service;
+package org.example.Service;
 
-import Model.AddressModel;
-import Model.HistoryModel;
-import Repository.HistoryRepository;
+import org.example.Model.HistoryModel;
+import org.example.Repository.HistoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
